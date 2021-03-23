@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/octocode-logo.png" />
+  <Checklist />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Checklist from './components/Checklist.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Checklist,
+  },
+};
 </script>
 
 <style>
